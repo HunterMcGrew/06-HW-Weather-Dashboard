@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="./Assets/css/style.css" />
+  <title>Weather Dashboard</title>
+</head>
+<body>
+
+    <header class="row col-12 gradient vw-100 m-0 justify-content-center">
+        <h1 class="text-center">Weather Dashboard</h1>
+    </header>
+
+    <div class="container vw-100 m-0">
+
+    <div class="row justify-content-center">
+        <section class="col-4">
+
+            <form class="" id="">
+                <h2>Search for a City:</h2>
+                <input type="text" class="form-control my-2" id="cityInput" placeholder="City Name">
+                <button type="submit" class="btn btn-primary search" id="submit">Search</button>
+            </form>
+            <!-- search and stuff here -->
+
+        </section>
+
+        <section class="col-8 forcast border-2 border-dark" id="weatherNow">
+
+            
+
+        </section>
+
+        <section class="col-8 fiveDay" id="weatherFive">
+
+            <h3>five day forcast blah blah</h3>
+            <h6>test H6</h6>
+            <!-- weather forcast here-->
+
+        </section>
+
+    </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>

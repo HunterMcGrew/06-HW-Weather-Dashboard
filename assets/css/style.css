@@ -1,0 +1,17 @@
+
+body {
+    width: 100%;
+}
+
+h1 {
+    color: white;
+}
+
+.gradient {
+    background-image: linear-gradient(to right, rgb(6, 193, 250) , rgb(0, 21, 138));
+}
+
+.search {
+    width: 100%;
+}
+
