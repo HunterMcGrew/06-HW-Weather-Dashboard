@@ -12,7 +12,8 @@
     href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
     rel="stylesheet"
   />
-  <link rel="stylesheet" href="./Assets/css/style.css" />
+  
+  <link rel="stylesheet" href="./assets/css/style.css" />
   <title>Weather Dashboard</title>
 </head>
 <body>
@@ -23,7 +24,7 @@
 
     <div class="container vw-100 m-0">
 
-    <div class="row justify-content-center">
+    <div class="row justify-content-center align-self-start">
         <section class="col-4">
 
             <form class="" id="">
@@ -31,20 +32,52 @@
                 <input type="text" class="form-control my-2" id="cityInput" placeholder="City Name">
                 <button type="submit" class="btn btn-primary search" id="submit">Search</button>
             </form>
+            <hr>
             <!-- search and stuff here -->
 
         </section>
 
-        <section class="col-8 forcast border-2 border-dark" id="weatherNow">
-
+        <section class="col-8 forcast align-self-center" id="weatherNow">
+            <h2 id="searchedCity"></h2>
+            <h5 id="searchedTemp"></h5>
+            <h5 id="searchedWind"></h5>
+            <h5 id="searchedHumidity"></h5>
             
-
         </section>
 
-        <section class="col-8 fiveDay" id="weatherFive">
-
-            <h3>five day forcast blah blah</h3>
-            <h6>test H6</h6>
+        <section class="col-8 fiveDay row" id="weatherFive">
+            
+            <div id="day1" class="col-2">
+                <h4 id="day1Date"></h4>
+                <h5 id="day1Temp"></h5>
+                <h5 id="day1Wind"></h5>
+                <h5 id="day1Humidity"></h5>
+            </div>
+            <div id="day2" class="col-2">
+                <h4 id="day2Date"></h4>
+                <h5 id="day2Temp"></h5>
+                <h5 id="day2Wind"></h5>
+                <h5 id="day2Humidity"></h5>
+            </div>
+            <div id="day3" class="col-2">
+                <h4 id="day3Date"></h4>
+                <h5 id="day3Temp"></h5>
+                <h5 id="day3Wind"></h5>
+                <h5 id="day3Humidity"></h5>
+            </div>
+            <div id="day4" class="col-2">
+                <h4 id="day4Date"></h4>
+                <h5 id="day4Temp"></h5>
+                <h5 id="day4Wind"></h5>
+                <h5 id="day4Humidity"></h5>
+            </div>
+            <div id="day5" class="col-2">
+                <h4 id="day5Date"></h4>
+                <h5 id="day5Temp"></h5>
+                <h5 id="day5Wind"></h5>
+                <h5 id="day5Humidity"></h5>
+            </div>
+        
             <!-- weather forcast here-->
 
         </section>
