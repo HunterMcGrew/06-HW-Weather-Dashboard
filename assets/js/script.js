@@ -1,4 +1,6 @@
 // start of working code 
+// text input field on page
+var inputField = document.getElementById("cityInput");
 // define submit from "search" button on page
 var submit = document.getElementById("submit");
 
@@ -12,6 +14,8 @@ var userCity;
 function submitHandler (event) {
     event.preventDefault();
     userCity = document.getElementById("cityInput").value;
+    // clear text field
+    inputField.textContent = "";
     fetchWeather();
 };
 

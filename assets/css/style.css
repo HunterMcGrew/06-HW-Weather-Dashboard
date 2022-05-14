@@ -31,6 +31,7 @@ h1 {
 .future {
     background-image: linear-gradient(to bottom, rgb(0, 21, 138), rgb(6, 193, 250));
     margin-right: 6px;
+    margin-bottom: 6px;
 }
 
 .white {
@@ -41,8 +42,3 @@ h1 {
     display: flex;
     flex-direction: column;
 }
-
-
-
-
-
