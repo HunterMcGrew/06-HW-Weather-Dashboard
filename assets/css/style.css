@@ -20,3 +20,29 @@ h1 {
     width: 100%;
 }
 
+.searchSection {
+    height: 100%;
+}
+
+.newCity {
+    margin-bottom: 6px;
+}
+
+.future {
+    background-image: linear-gradient(to bottom, rgb(0, 21, 138), rgb(6, 193, 250));
+    margin-right: 6px;
+}
+
+.white {
+    color: white;
+}
+
+#results {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+
