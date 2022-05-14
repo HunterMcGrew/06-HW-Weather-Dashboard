@@ -4,6 +4,8 @@ A simple weather dashboard to practice and display usage of a weather API.
 
 ![image](https://github.com/HunterMcGrew/06-HW-Weather-Dashboard/blob/main/weather_dashboard.PNG?raw=true)
 
+![Live LInk](https://huntermcgrew.github.io/06-HW-Weather-Dashboard/)
+
 ## Usage
 
 Upon visiting the page, you will be presented with an empty text input field and a search button. Type in the city where you would like to see the current weather and future 5 day forecast. 
