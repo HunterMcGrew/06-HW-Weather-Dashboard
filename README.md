@@ -2,7 +2,7 @@
 
 A simple weather dashboard to practice and display usage of a weather API.
 
-![image]()
+![image](https://github.com/HunterMcGrew/06-HW-Weather-Dashboard/blob/main/weather_dashboard.PNG?raw=true)
 
 ## Usage
 
