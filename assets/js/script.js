@@ -81,10 +81,10 @@ function printResults(city, temp, temp1, temp2, temp3, temp4, temp5, wind, wind1
     var forecastText = document.getElementById("forecastText");
     var now = moment().format("MM/DD/YYYY");
     var day1 = moment(now).add(1, "days").format("MM/DD/YYYY");
-    var day2 = moment(now).add(1, "days").format("MM/DD/YYYY");
-    var day3 = moment(now).add(1, "days").format("MM/DD/YYYY");
-    var day4 = moment(now).add(1, "days").format("MM/DD/YYYY");
-    var day5 = moment(now).add(1, "days").format("MM/DD/YYYY");
+    var day2 = moment(now).add(2, "days").format("MM/DD/YYYY");
+    var day3 = moment(now).add(3, "days").format("MM/DD/YYYY");
+    var day4 = moment(now).add(4, "days").format("MM/DD/YYYY");
+    var day5 = moment(now).add(5, "days").format("MM/DD/YYYY");
 
     forecastText.textContent = "5-Day Forecast: ";
     forecastText.style.display = "block";

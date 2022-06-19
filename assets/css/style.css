@@ -35,6 +35,10 @@ h1 {
 }
 
 .white {
+    color: rgb(196, 196, 196);
+}
+
+.fiveDay h5 {
     color: white;
 }
 
