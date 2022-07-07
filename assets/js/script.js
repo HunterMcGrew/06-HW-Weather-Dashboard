@@ -132,17 +132,34 @@ function historyHandler(event) {
     var clickedCity = event.currentTarget.textContent;
     userCity = clickedCity;
     fetchWeather();
-}
+};
+
+let cities = [];
+// console.log("cities", cities);
+let historyBtns = document.getElementsByClassName("newCity");
+
+// console.log("historyBtns", historyBtns);
 
 function searchHistory() {
-
+    
     // array of cities for history, no local storage so it only saves until refresh
-    const cities = [];
-    cities.push(userCity);
+    if (cities.includes(userCity) == false) {
+        cities.push(userCity);
+    };
+    // console.log("cities", cities);
+    
     var append = document.getElementById("append");
-
+    
     // forEach city, make a button and append it
     cities.forEach(function (city, i) {
+        
+        let data = [].map.call(historyBtns, item => item.innerText);
+        // console.log("data", data);
+
+        if (data.includes(city)) {
+            return;
+        };
+
         var createButton = document.createElement("button");
         createButton.setAttribute("type", "submit");
         createButton.setAttribute("class", "btn btn-primary search newCity");
